@@ -5,3 +5,4 @@
 ## Good Theory
 - https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/2-what-are-agents?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
 - [Model vs agent](https://dev.to/abhishekjaiswal_4896/the-difference-between-ai-agents-and-traditional-ai-models-1aj)
+- [agnetic AI](https://blogs.nvidia.com/blog/what-is-agentic-ai/)
