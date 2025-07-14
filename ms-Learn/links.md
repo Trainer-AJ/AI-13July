@@ -1,0 +1,3 @@
+- https://learn.microsoft.com/en-us/semantic-kernel/overview/
+- https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry?pivots=fdp-project#error-principal-doesnt-have-access-to-apioperation
+- https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/deployment-types
