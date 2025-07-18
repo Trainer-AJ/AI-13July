@@ -39,3 +39,13 @@ GPUs offer the parallelism, throughput, and efficiency needed to train and run l
 | **Using a calculator app** | Performing basic arithmetic and displaying results |
 | **Playing a game**         | Processing graphics, physics, logic, and inputs    |
 | **Email or messaging**     | Sending, receiving, and displaying text and media  |
+
+## Terms
+- Fine-Tuning
+Adjusting a pre-trained model on specific data to specialize it.
+
+- Contextual Data Integration
+Incorporating relevant external information to improve responses.
+
+- RAG (Retrieval Augmented Generation)
+Technique combining retrieval of external knowledge with generation to produce more accurate and informed outputs.
