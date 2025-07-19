@@ -22,3 +22,8 @@ Example: Build a chatbot or image classifier in minutes and share it with a link
 | **Pretrained Model Search**          | ❌      | ✅ (like a model marketplace)                |
 | **Auto integration with ML tools**   | ❌      | ✅ (`transformers`, `datasets`, `diffusers`) |
 
+## AI models
+1. Multi Modles - GPT-4o and Phi3-vision
+2. generating images -  DALL·E 3 and Stability AI
+3. embedding models like Ada and Cohere. Embeddings models convert text into numerical representations and are used to improve search relevance by understanding semantic meaning. These models are often implemented in Retrieval Augmented Generation (RAG) scenarios to enhance recommendation engines by linking similar content.
+
