@@ -27,3 +27,14 @@ Example: Build a chatbot or image classifier in minutes and share it with a link
 2. generating images -  DALL·E 3 and Stability AI
 3. embedding models like Ada and Cohere. Embeddings models convert text into numerical representations and are used to improve search relevance by understanding semantic meaning. These models are often implemented in Retrieval Augmented Generation (RAG) scenarios to enhance recommendation engines by linking similar content.
 
+## How to Pick AI Model 
+[MS Learn](https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/2-select-model?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-custom-copilots-ai-studio)
+
+## Prompt Engineering - [ms learn](https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/4-improve-model)
+**Good Question => give response**
+
+system prompt. The system prompt sets the model's behavior and allows you to guide the model without exposing the end user to the instructions. The best results are often achieved through the assignment of an explicit system prompt and guidance (or templates) that help users submit prompts that reflect the patterns described here.
+
+- fine tuning by provifing sample questions and responses
+![](https://learn.microsoft.com/en-us/training/wwl-data-ai/explore-models-azure-ai-studio/media/model-optimization.png)
+
