@@ -1,5 +1,3 @@
----
-
 ## 📚 Definitions
 
 ### 🧠 **LLM = Large Language Model**
@@ -72,4 +70,29 @@
 > **LLM (Large Language Model)** = More powerful, general, and resource-hungry
 > **SLM (Small Language Model)** = Lightweight, efficient, and suitable for edge/low-power environments
 
----
+| Feature             | **SLM (Small Model)**                 | **LLM (Large Model)**              |
+| ------------------- | ------------------------------------- | ---------------------------------- |
+| **Parameter count** | \~100M – 7B                           | 13B – 1T+                          |
+| **Runs on**         | CPU, mobile, edge devices             | GPUs, clusters, cloud infra        |
+| **Speed**           | Fast inference                        | Slower (more compute needed)       |
+| **Cost**            | Low compute, cheap to deploy          | Expensive to train/run             |
+| **Capabilities**    | Task-specific, compact, limited scope | Broad capabilities, deep reasoning |
+
+
+## AI models :
+- Chat Model Chef: Focused on customer service, friendly conversations, storytelling, and making sure you're happy with your experience.
+
+- Reasoning Model Chef: Focused on precision, following complex recipes, perfect plating, and nutritional correctness.
+
+- Same tools, same ingredients — different purpose
+
+| Feature              | **Chat Completion Models**                | **Reasoning Models**                                |
+| -------------------- | ----------------------------------------- | --------------------------------------------------- |
+| **Purpose**          | Continue conversations fluently           | Solve problems using logical, step-by-step thinking |
+| **Training Focus**   | Dialogues, chat transcripts, instructions | Math, logic, code, chain-of-thought reasoning       |
+| **Behavior**         | Polite, context-aware, human-like         | Analytical, accurate, structured                    |
+| **Strengths**        | Natural language fluency, memory, context | Multi-step reasoning, precision, correctness        |
+| **Fine-tuning Data** | Human chat, Q\&A, feedback-tuned datasets | Problem-solving datasets (math, code, logic)        |
+| **Inference Style**  | Conversational, flexible                  | Structured, rule-following, deliberate              |
+| **Use Cases**        | Chatbots, virtual assistants              | Math solvers, AI tutors, coding agents              |
+
