@@ -246,5 +246,13 @@ This gives you a **controlled update cycle** while reducing risk of bad updates.
 
 ---
 
+## Weights vs Parameters - [IBM Docs](https://www.ibm.com/think/topics/model-parameters)
+
+| Concept                    | Description                                                              |
+| -------------------------- | ------------------------------------------------------------------------ |
+| **Weights**                | Learnable numbers that connect layers or neurons                         |
+| **Parameters**             | A general term for all learnable values (includes weights, biases, etc.) |
+| **Knowledge of the model** | Stored in its parameters (mostly weights)                                |
+
 
 
