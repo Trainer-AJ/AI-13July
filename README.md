@@ -1,5 +1,7 @@
 # AI-13July
-https://github.blog/ai-and-ml/llms/the-architecture-of-todays-llm-applications/
+
+[LLM architecture](https://github.blog/ai-and-ml/llms/the-architecture-of-todays-llm-applications/)
+
 > The Github for AI & ML - Hugging Face
 > YOu can create your profile and share your models,
 > Inference API: Run models in the cloud (no GPU needed)
