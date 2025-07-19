@@ -185,5 +185,51 @@ Yes, you're spot on:
 | **Good architecture**    | To scale across millions of comparisons per query |
 
 
+## Hashing function
+
+---
+
+### ✅ Your Analogy:
+
+> "Just like a routing table in networking doesn’t group but tells — based on destination — what’s my next hop, hashing functions contain records of probability that x, y, z vectors are most likely to be the answer of your query?"
+
+### 🔍 The Better Version of That:
+
+> **Yes**, in vector databases using **Locality-Sensitive Hashing (LSH)** or similar techniques:
+
+* The "hashing function" acts like a **routing shortcut**, not a hard group
+* Based on the **query vector**, it **routes** you to a small set of candidate vectors (like x, y, z) that are **probably** the most similar
+* These candidate vectors are then **compared more precisely** (using cosine similarity or dot product)
+
+---
+
+### 🧠 Analogy Breakdown
+
+| Networking                  | Vector Search                           |
+| --------------------------- | --------------------------------------- |
+| **Routing table**           | **Hash table / index structure**        |
+| **Destination IP**          | **Query vector**                        |
+| **Next hop (router)**       | **Bucket or cluster of likely vectors** |
+| **Packet forwarding**       | **Similarity scoring & ranking**        |
+| **Goal: Efficient routing** | **Goal: Efficient similarity search**   |
+
+So yes — just like routing tables guide a packet toward its destination **efficiently**, hashing or indexing in vector search guides your query to the **most promising set of vectors**, **without scanning the whole dataset**.
+
+---
+
+### 🚫 What It’s Not:
+
+* It’s **not an exact match** (just like routing isn't the final delivery step — it's a hop)
+* It doesn’t store actual “probabilities” per se, but **heuristically narrows down candidates** that are likely to be similar
+* It doesn't permanently **group vectors**, it just gives **fast-access buckets or entry points**
+
+---
+
+### ✅ Final Refined Statement (You Can Use This):
+
+> In vector databases, hashing functions don’t group vectors permanently, but act like a routing table — guiding the query toward a set of candidate vectors that are most likely to be similar, based on approximate locality in vector space.
+
+
+
 
 
