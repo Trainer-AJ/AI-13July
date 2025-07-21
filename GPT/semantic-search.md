@@ -1,5 +1,10 @@
 ## Whats a vector DB -> [Youtube](https://youtu.be/72XgD322wZ8?si=eAppjQnnlA0vnsJr)
 
+### capture feelings not words .... = semantic search + cosine similarity (more distance less relation)
+
+![](https://learn.microsoft.com/en-us/training/wwl-data-ai/build-copilot-ai-studio/media/vector-embeddings.jpg)
+
+
 ## Semantic search 
 Semantic search understands your intent by going **beyond keywords** and trying to grasp the **meaning** behind your query. It uses a combination of **natural language processing (NLP)** and **machine learning**, especially techniques like **embeddings** and **transformer models** (like BERT or GPT), to figure out what you're actually looking for.
 
