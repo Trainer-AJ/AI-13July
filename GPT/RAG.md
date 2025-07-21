@@ -1,3 +1,7 @@
+1. Retrieve grounding data based on the initial user-entered prompt.
+2. Augment {to increase the amount, value, size, etc. of something} the prompt with grounding data.
+3. Use a language model to generate a grounded response.
+
 ![](https://docs.aws.amazon.com/images/sagemaker/latest/dg/images/jumpstart/jumpstart-fm-rag.jpg)
 
 ### Use External data source 
