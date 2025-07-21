@@ -238,4 +238,5 @@ So yes — just like routing tables guide a packet toward its destination **effi
 
 ![](https://learn.microsoft.com/en-us/azure/search/media/search-what-is-azure-search/azure-search.svg)
 
-
+## vector search
+![](https://learn.microsoft.com/en-us/azure/search/media/vector-search-overview/vector-search-architecture-diagram-3.svg)
