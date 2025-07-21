@@ -4,6 +4,7 @@
 
 ![](https://learn.microsoft.com/en-us/training/wwl-data-ai/build-copilot-ai-studio/media/vector-embeddings.jpg)
 
+> By representing words and their meanings with vectors, you can extract relevant context from your data source even when your data is stored in different formats (text or image) and languages.
 
 ## Semantic search 
 Semantic search understands your intent by going **beyond keywords** and trying to grasp the **meaning** behind your query. It uses a combination of **natural language processing (NLP)** and **machine learning**, especially techniques like **embeddings** and **transformer models** (like BERT or GPT), to figure out what you're actually looking for.
@@ -235,6 +236,6 @@ So yes — just like routing tables guide a packet toward its destination **effi
 > In vector databases, hashing functions don’t group vectors permanently, but act like a routing table — guiding the query toward a set of candidate vectors that are most likely to be similar, based on approximate locality in vector space.
 
 
-
+![](https://learn.microsoft.com/en-us/azure/search/media/search-what-is-azure-search/azure-search.svg)
 
 
