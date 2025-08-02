@@ -1,4 +1,4 @@
-Let’s break this down step by step for the two topics: **Knowledge-Based Systems (KBS)** and **Expert Systems (ES)** in AI.
+[Original - Baap content](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/README.md)
 
 ---
 
