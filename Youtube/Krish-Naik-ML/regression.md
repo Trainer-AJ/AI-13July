@@ -11,3 +11,8 @@ Yes, you're absolutely right! In **regression**, especially **linear regression*
 > This line helps the model generalize and make predictions for unseen data by estimating the output based on the input.
 
 #### Baap Level Linera regression by google devs - [here](https://developers.google.com/machine-learning/crash-course/linear-regression)
+
+### check model efficiency 
+> via Loss or cost function
+- Loss is a numerical metric that describes how wrong a model's predictions are.
+![](https://developers.google.com/static/machine-learning/crash-course/linear-regression/images/loss-lines.png)
