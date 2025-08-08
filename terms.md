@@ -1,2 +1,3 @@
 1. forward inference systems in Python: Forward chaining is a data-driven inference technique. It starts with the available data and applies rules to infer new data until a goal is reached. This method is commonly used in situations where the initial data set is extensive  [Geeks for Geeks](https://www.geeksforgeeks.org/artificial-intelligence/forward-chaining-and-backward-chaining-inference-in-rule-based-systems/)
-example: Medical diagnosis: thorat pain and shivering: cold 
+example: Medical diagnosis: thorat pain and shivering: cold
+2. [Google Dev ML Glossary](https://developers.google.com/machine-learning/glossary)
