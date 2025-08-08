@@ -1,5 +1,8 @@
 # AI-13July
 
+<img width="1819" height="928" alt="Screenshot 2025-08-08 193225" src="https://github.com/user-attachments/assets/f1a44a71-c1a5-45f8-8155-cc0249b2f5b1" />
+
+
 **multi-modal, meaning they can process images, audio, and other data types alongside text. Models like GPT-4o and Phi3-vision are capable of analyzing and generating both text and images**
 
 [LLM architecture](https://github.blog/ai-and-ml/llms/the-architecture-of-todays-llm-applications/)
