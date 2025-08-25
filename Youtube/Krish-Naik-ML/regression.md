@@ -16,3 +16,8 @@ Yes, you're absolutely right! In **regression**, especially **linear regression*
 > via Loss or cost function
 - Loss is a numerical metric that describes how wrong a model's predictions are.
 ![](https://developers.google.com/static/machine-learning/crash-course/linear-regression/images/loss-lines.png)
+
+your prediction  = 3
+Actual value = 5 
+loss = -2 
+so thats why Mean squared error = square value removes the sign
