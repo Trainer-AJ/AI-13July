@@ -86,3 +86,6 @@ Let me know if you’d like a visual or graph of how MSE vs. MAE reacts to diffe
 
 
 **Outliers come from real data — not from the model's predictions.**
+
+## Gradient descent 
+- keep guessing the bias (intercept at y axis) and weight (slope) till the loss line converges (meaning it no more descreases) it continues with almost same value - [docs](https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent)
