@@ -2,3 +2,11 @@
 > Machine learning allows computer systems to continuously adjust and enhance themselves as they accrue more “experiences.” Thus, the performance of these systems can be improved by providing larger and more varied datasets to be processed.
 
 [Google docs - what is ML](https://cloud.google.com/learn/what-is-machine-learning)
+
+ML is about learning patterns from data to:
+
+✅ Predict future data (supervised learning)
+
+✅ Discover hidden structure (unsupervised learning)
+
+✅ Make decisions (reinforcement learning)
