@@ -14,3 +14,5 @@ ML is about learning patterns from data to:
 learning then creating new stuff inspired by training data (Gen AI) 
 
 - generative models are initially trained using an unsupervised approach, where the model learns to mimic the data it's trained on
+
+Model is a mathematical relationship derived from data that an ML system uses to make predictions
