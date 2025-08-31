@@ -10,3 +10,7 @@ ML is about learning patterns from data to:
 ✅ Discover hidden structure (unsupervised learning)
 
 ✅ Make decisions (reinforcement learning)
+
+learning then creating new stuff inspired by training data (Gen AI) 
+
+- generative models are initially trained using an unsupervised approach, where the model learns to mimic the data it's trained on
