@@ -1,0 +1,2 @@
+- trained on feature (x) labels - the answers - f(x) 
+- Good datasets are both large and highly diverse.
