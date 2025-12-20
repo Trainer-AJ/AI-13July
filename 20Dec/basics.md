@@ -131,4 +131,114 @@ to recognize patterns and make decisions.
 
 - **Output Layer**
 ```
+# ✅ **1. Attention Breakdown Example (Modifiers & Token Weights)**
+
+```markdown
+## Attention Breakdown Example
+
+**Sentence:**  
+I made a sweet Indian rice dish called ___
+
+### Token Explanations (with attention scores)
+- **I** — I am the subject of the sentence (0.7%)
+- **made** — I indicate an action or verb (1.1%)
+- **a** — I am a determiner (1.4%)
+- **sweet** — I am an adjective describing taste (36.3%)
+- **Indian** — I am an adjective describing origin (11.0%)
+- **rice** — I am a noun indicating the main ingredient (19.3%)
+- **dish** — I am the main subject being described (29.2%)
+- **called** — (part of next clause)
+
+### Query
+- **Query:** “I want to know about my modifiers”
+```
+
+***
+
+# ✅ **2. Pretraining Process (LLM Training Overview)**
+
+```markdown
+## Pretraining Steps
+
+### Step 1: Download and preprocess the internet
+- Collect large-scale text from websites, books, articles, etc.
+- Clean and normalize text.
+
+---
+
+### Step 2: Tokenization
+- Convert text into sequences of symbols (tokens).
+- Vocabulary size examples:
+  - 50,000 tokens
+  - 100,000+ tokens
+- Byte Pair Encoding (BPE) is often used.
+- Compresses text into common subword units.
+
+**Example:**
+- "I love pizza" → tokens like:  
+  - I  
+  - lo  
+  - ve  
+  - piz  
+  - za  
+
+---
+
+### Step 3: Neural Network Training
+- Input sequence example: `91, 860, 287, 11579`
+- Neural network outputs probability distribution for next token:
+  - direction → 2%  
+  - case → 1%  
+  - post → 4%  
+- Correct next token: `3952` (example)
+
+---
+
+### Neural Network Internals
+- Parameters (weights):  
+  - Typically billions of values.
+- Neural network learns a function to map input tokens → output probabilities.
+
+---
+
+### Inference (Generation)
+- For text generation:
+  - Feed tokens one at a time.
+  - Sample next token from probability distribution.
+  - Append and repeat.
+
+**Example sequence during generation:**
+```
+
+input → neural network → probabilities → sample → next token
+91 → ... → next token: 860  
+91, 860 → ... → next token: 287  
+91, 860, 287 → ... → next token: 11579
+
+```
+```
+
+***
+
+# ✅ **3. Attention Explanation (Value Scores Per Token)**
+
+```markdown
+## Token Meaning & Value Scores
+
+**Sentence:**  
+I made a sweet Indian rice dish called ___
+
+### Token Values
+- **I** — This is a first-person perspective (0.7%)
+- **made** — An action was performed (1.1%)
+- **a** — The dish is singular (1.4%)
+- **sweet** — The taste is sweet (36.3%)
+- **Indian** — The style or origin is Indian (11.0%)
+- **rice** — The main ingredient is rice (19.3%)
+- **dish** — This is the main noun being described (29.2%)
+
+### Query
+- **User query:** “I want to know about my modifiers”
+```
+
 
