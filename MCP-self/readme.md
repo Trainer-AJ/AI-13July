@@ -28,3 +28,7 @@
 }
 
 ```
+
+```sh
+az vm image list-skus -l centralindia -f ubuntu -p Canonical
+```
