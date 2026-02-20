@@ -42,3 +42,8 @@ graph TB
     Client4 ---|"Dedicated<br/>connection"| ServerC
 ```
 - Conceptually the `data layer` is the inner layer, while the `transport layer` is the outer layer. [MCP Docs on layers](https://modelcontextprotocol.io/docs/learn/architecture#layers)
+- [Very Well explained Lifecycle of MCP - docs](https://modelcontextprotocol.io/docs/learn/architecture#data-layer-2)
+- [Good docs on how LLM + mcp works]
+
+![](https://cdn.virtuslab.com/image1_b4c0aeaca7.png?format=webp&width=2548)
+
