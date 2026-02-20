@@ -43,7 +43,10 @@ graph TB
 ```
 - Conceptually the `data layer` is the inner layer, while the `transport layer` is the outer layer. [MCP Docs on layers](https://modelcontextprotocol.io/docs/learn/architecture#layers)
 - [Very Well explained Lifecycle of MCP - docs](https://modelcontextprotocol.io/docs/learn/architecture#data-layer-2)
-- [Good docs on how LLM + mcp works]
+- [Good docs on how LLM + mcp works](https://virtuslab.com/blog/ai/how-mcp-llm-tool-calls-work/)
 
 ![](https://cdn.virtuslab.com/image1_b4c0aeaca7.png?format=webp&width=2548)
+
+- [Context7](https://context7.com/): Up-to-date Docs for LLMs and AI code editors Get the latest documentation and code into Cursor, Claude, or other LLMs
+- [PDF.AI tool demo youtube channel](https://youtube.com/@py-unboxed?si=oVijT6G55_gav9zc)
 
